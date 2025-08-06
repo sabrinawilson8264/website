@@ -1,0 +1,78 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+
+@media (orientation: portrait) {
+    .MiddleBit {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.MiddleBit {
+    display: flex;
+    gap: 18px;
+}
+
+.Pic,.Text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Pic img {
+    max-width:450px;
+    height: auto;
+    flex: initial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 15px;
+}
+
+.HeaderRight {
+    display: flex;
+    gap: 18px;
+}
+
+.Affirmation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    transition-duration: 0.4s;
+    padding: 6px;
+  }
+  
+button:hover {
+    background-color: mediumpurple;
+}
+
+button,h3,li,p {
+    font-family: 'Courier New',Georgia, 'Times New Roman', Times, serif;
+    color: indigo;
+}
+
+a {
+   text-decoration: none; 
+   color: mediumpurple;
+}
