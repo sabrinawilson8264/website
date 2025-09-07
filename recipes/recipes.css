@@ -42,3 +42,7 @@ a {
    color: mediumpurple;
 }
 /* END of do not delete section */
+
+.Ingredients {
+    flex-direction: column;
+}
